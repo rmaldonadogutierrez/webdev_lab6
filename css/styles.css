@@ -16,7 +16,7 @@ body {
 }
 
 #header {
-  position: relative;   
+  position: relative !important;   
   height: 140px;
   width: 100%;
   background-image: url("../images/black.jpg") !important;
@@ -30,9 +30,9 @@ body {
 }
 
 #header h1 {
-  position: absolute;
+  position: absolute !important;
   left: 260px;   /* adjust as needed */
-  top: 25px;     /* adjust as needed */
+  top: 30px;     /* adjust as needed */
   font-size: 3em;
   font-family: 'Devonshire', cursive;
   color: #E35335;
@@ -143,6 +143,8 @@ strong {
   color: white;
   font-size: 1.2em;
 }
+
+
 
 
 
