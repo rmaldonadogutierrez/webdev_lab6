@@ -10,8 +10,9 @@ body {
 }
 
 #header {
-  background-image: url("../images/repeating.png");
   float: left;
+  width: 100%;
+  background-color: transparent;
 }
 
 #header h1 {
@@ -48,6 +49,7 @@ body {
   position: relative;
   margin-top: 40px;
   border-radius: 12px 12px 0px 0px;
+  background-image: url("../images/repeating.png");
 }
 
 #main-content {
@@ -119,4 +121,5 @@ h2 strong {
 strong {
   font-size: 2em;
   font-weight: 900;
+
 }
