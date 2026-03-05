@@ -1,6 +1,4 @@
-/* ------------------------------
-   GLOBAL BACKGROUND
------------------------------- */
+/* GLOBAL */
 body {
   background-image: url("../images/black.jpg");
   background-repeat: repeat;
@@ -9,21 +7,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* ------------------------------
-   PAGE WRAPPER (wood texture)
------------------------------- */
+/* PAGE WRAPPER (wood background box) */
 #page-wrapper {
   width: 960px;
   margin: 0 auto;
-  background-image: url("../images/repeating.png");
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
   border-radius: 12px 12px 0px 0px;
-  padding-bottom: 20px;
+  background-image: url("../images/repeating.png");
 }
 
-/* ------------------------------
-   HEADER
------------------------------- */
+/* HEADER */
 #header {
   position: relative;
   height: 140px;
@@ -36,24 +29,17 @@ body {
   margin-bottom: 20px;
 }
 
-/* ACME + My Demo Site */
+/* “My Demo Site” to the right of the logo */
 #header h1 {
   position: absolute;
-  left: 180px;
-  top: 20px;
+  left: 200px;
+  top: 35px;
+  font-size: 3em;
   font-family: 'Devonshire', cursive;
   color: #E35335;
-  line-height: 1.1;
 }
 
-/* ACME (big bold) */
-#header h1 strong {
-  font-size: 48px;
-  font-weight: 900;
-  display: block;
-}
-
-/* Top link */
+/* (Not used in your HTML, but part of the lab selectors) */
 #header #toplink {
   text-decoration: none;
   position: absolute;
@@ -63,9 +49,7 @@ body {
   font-size: 1.8em;
 }
 
-/* ------------------------------
-   NAVIGATION BAR
------------------------------- */
+/* NAVIGATION */
 #main-nav {
   float: left;
   width: 100%;
@@ -99,16 +83,14 @@ body {
   color: #333;
 }
 
-/* ------------------------------
-   CONTENT AREA
------------------------------- */
+/* CONTENT WRAPPER (main + sidebar) */
 #content-wrapper {
   position: relative;
   margin-top: 40px;
   border-radius: 12px 12px 0px 0px;
 }
 
-/* Main text column */
+/* MAIN CONTENT COLUMN */
 #main-content {
   min-height: 300px;
   width: 715px;
@@ -117,20 +99,20 @@ body {
   margin-left: 15px;
 }
 
-/* Sidebar */
+/* SIDEBAR */
 #side-content {
   min-height: 150px;
   width: 200px;
   float: left;
 }
 
-/* h2 strong (This is our h2 Tag) */
+/* H2 STRONG (This is our h2 Tag) */
 h2 strong {
   font-weight: 900;
   font-size: 48px;
 }
 
-/* Right-floating image (Main Squeeze logo) */
+/* RIGHT-FLOATING IMAGE (Main Squeeze logo) */
 .image-r {
   float: right;
   border: 2px solid blue;
@@ -140,21 +122,19 @@ h2 strong {
   margin: 10px 0 10px 20px;
 }
 
-/* Generic strong tag (used for ACME if needed) */
+/* GENERIC STRONG (used elsewhere if needed) */
 strong {
   font-size: 2em;
   font-weight: 900;
 }
 
-/* Centering helper */
+/* CENTERED IFRAME WRAPPER */
 #center {
   width: 960px;
   text-align: center;
 }
 
-/* ------------------------------
-   FOOTER
------------------- */
+/* FOOTER */
 #footer {
   background-color: #777;
   height: 80px;
