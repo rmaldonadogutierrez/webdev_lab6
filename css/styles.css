@@ -30,8 +30,8 @@ body {
 /* “My Demo Site” — adjusted for wider ACME image */
 #header h1 {
   position: absolute;
-  left: 300px;   /* ← adjust if needed */
-  top: 35px;
+  left: 420px;  
+  top: 5px;
   font-size: 3em;
   font-family: 'Devonshire', cursive;
   color: #E35335;
@@ -137,6 +137,7 @@ strong {
   font-weight: 900;
   font-size: 48px;
 }
+
 
 
 
