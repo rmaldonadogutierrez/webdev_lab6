@@ -16,10 +16,10 @@ body {
 }
 
 #header {
-  position: relative;
+  position: relative;   
   height: 140px;
   width: 100%;
-  background-image: url("../images/black.jpg");
+  background-image: url("../images/black.jpg") !important;
   background-repeat: repeat;
 }
 
@@ -31,8 +31,8 @@ body {
 
 #header h1 {
   position: absolute;
-  left: 700px;   /* moves text to the right of the logo */
-  top: 40px;     /* moves text down slightly */
+  left: 260px;   /* adjust as needed */
+  top: 25px;     /* adjust as needed */
   font-size: 3em;
   font-family: 'Devonshire', cursive;
   color: #E35335;
@@ -143,6 +143,7 @@ strong {
   color: white;
   font-size: 1.2em;
 }
+
 
 
 
